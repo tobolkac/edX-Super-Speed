@@ -13,3 +13,15 @@ edX Super Speed plus Video Downloader greasemonkey script
 1. Open Tampermonkey in your browser and click the Add Script tab (icon with a plus symbol)
 1. Paste the source into the script window and hit save
 1. Viola!
+
+
+## Configuration
+
+### Speed Options
+
+- The additional speed options that are added by this script can be configured by adding or removing calls to the `addSpeedOption()` function in the main loop of the script.
+
+
+### Default Speed
+
+- Ths script can also be used to set the default speed for all videos by un-commenting the line `//setDefaultSpeed("2.0", i);` in the main loop of the script and setting the speed value passed to it to any of the default speed options provided by edx or the additional speed options added by this script.
